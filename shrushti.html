@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shrey Wanjule | Portfolio</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* BODY */
+
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+/* FRAME */
+
+.container{
+width:900px;
+max-width:100%;
+background:white;
+border-radius:15px;
+padding:30px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+nav h2{
+color:#2a5298;
+margin:0;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+padding:0;
+margin:0;
+}
+
+nav ul li{
+margin-left:15px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#2a5298;
+}
+
+/* SECTIONS */
+
+.section{
+margin-top:30px;
+}
+
+.section h2{
+color:#2a5298;
+border-bottom:2px solid #eee;
+padding-bottom:5px;
+margin-bottom:15px;
+}
+
+/* PROFILE */
+
+.profile{
+display:flex;
+align-items:center;
+gap:25px;
+flex-wrap:wrap;
+}
+
+.profile img{
+width:200px;
+border-radius:10px;
+}
+
+/* SKILLS */
+
+.skill{
+margin:10px 0;
+}
+
+.bar{
+background:#ddd;
+height:10px;
+border-radius:10px;
+}
+
+.progress{
+height:10px;
+background:#2a5298;
+border-radius:10px;
+}
+
+/* CONTACT */
+
+input,textarea{
+width:100%;
+padding:8px;
+margin-top:8px;
+border-radius:5px;
+border:1px solid #ccc;
+font-family:inherit;
+}
+
+button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+background:#2a5298;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1e3c72;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+align-items:flex-start;
+}
+
+nav ul{
+flex-wrap:wrap;
+margin-top:10px;
+}
+
+.profile{
+flex-direction:column;
+text-align:center;
+}
+
+.profile img{
+width:180px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- NAVBAR -->
+
+<nav>
+
+<h2>My Portfolio</h2>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Skills</a></li>
+<li><a href="#">Projects</a></li>
+<li><a href="#">Certificates</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- HOME / PROFILE -->
+
+<div class="section profile">
+
+<img src="shrey img/shrey wanjule.jpeg" alt="Shrey">
+
+<div>
+
+<h2>Hello, I'm Shrey</h2>
+
+<p>I am currently pursuing my B.Tech degree from <b>Walchand Institute of Technology, Solapur</b>.</p>
+
+<p>I am a student who is passionate about technology and learning new skills.</p>
+
+<p>I enjoy coding, problem-solving, and building creative projects.</p>
+
+</div>
+
+</div>
+
+<!-- SKILLS -->
+
+<div class="section">
+
+<h2>Skills</h2>
+
+<div class="skill">
+HTML
+<div class="bar">
+<div class="progress" style="width:90%"></div>
+</div>
+</div>
+
+<div class="skill">
+CSS
+<div class="bar">
+<div class="progress" style="width:80%"></div>
+</div>
+</div>
+
+<div class="skill">
+JavaScript
+<div class="bar">
+<div class="progress" style="width:60%"></div>
+</div>
+</div>
+
+</div>
+
+<!-- PROJECTS -->
+
+<div class="section">
+
+<h2>Projects</h2>
+
+<p>• Portfolio Website</p>
+<p>• Restaurant Website</p>
+
+</div>
+
+<!-- CERTIFICATES -->
+
+<div class="section">
+
+<h2>Certificates</h2>
+
+<p>Web Development Certificate</p>
+
+</div>
+
+<!-- CONTACT -->
+
+<div class="section">
+
+<h2>Contact</h2>
+
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea rows="3" placeholder="Message"></textarea>
+
+<button>Send</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
